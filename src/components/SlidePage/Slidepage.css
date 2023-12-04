@@ -1,0 +1,35 @@
+#slide-page {
+    display: flex;
+  
+    height: 70vh;
+    width: 70vw;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute; 
+    right: 15vw;
+  
+    /* width: 70vh; */
+    /* width: calc(100vw - 100vh); */
+
+   
+}
+
+.arrow  {
+    text-align: center;
+}
+
+#left-arrow {
+    height:50px;
+    width: 50px;
+    background-color: red;
+}
+
+#right-arrow {
+    height:50px;
+    width: 50px;
+    background-color: aqua;
+}

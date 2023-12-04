@@ -1,0 +1,95 @@
+#slide-page {
+    display: flex;
+
+    height: 70vh;
+    width: 70vw;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-between;
+}
+
+.menu-text {
+    z-index: 1;
+}
+
+.menu-button:hover {
+
+}
+
+.menu-button-container:hover{
+    stroke-width: 20;
+}
+
+#menu-left {}
+
+#menu-right {}
+
+
+
+
+.menu {
+    left: 15vw;
+    max-width: 70vh;
+    color: black;
+    max-height: 70vh;
+    font-weight: 400;
+}
+
+.logo {
+    right: 15vw;
+    max-height: 70vh;
+
+    /* width: 70vh; */
+    /* width: calc(100vw - 100vh); */
+
+
+}
+
+.arrow {
+    text-align: center;
+}
+
+#left-arrow {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+#right-arrow {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+}
+
+
+#top-left {
+    position: absolute;
+    width: 12.5vw;
+    height: 12.5vh;
+    top: 2.5vh;
+    left: 2.5vw;
+}
+
+#top-right {
+    position: absolute;
+    width: 12.5vw;
+    height: 12.5vh;
+    top: 2.5vh;
+    right: 2.5vw;
+}
+
+#bottom-left {
+    position: absolute;
+    width: 12.5vw;
+    height: 12.5vh;
+    bottom: 2.5vh;
+    left: 2.5vw;
+}
+
+#bottom-right {
+    position: absolute;
+    width: 12.5vw;
+    height: 12.5vh;
+    bottom: 2.5vh;
+    right: 2.5vw;
+}
