@@ -1,8 +1,10 @@
 import "./index.css";
 // import SlidePage from "./components/SlidePage/SlidePage.jsx"
+// import Header from "./components/Header/Header.jsx";
+import SlidePage from "./components/SlidePage/SlidePage.jsx";
 
 import React, { useState, useEffect } from "react";
-import Menu from "./components/Menu/Menu.jsx";
+// import Menu from "./components/Menu/Menu.jsx";
 // import axios from "axios";
 
 // const useNotes = (url) => {
@@ -16,8 +18,8 @@ import Menu from "./components/Menu/Menu.jsx";
 // };
 
 const App = () => {
-  const [counter, setCounter] = useState(0);
-  const [values, setValues] = useState([]);
+  // const [counter, setCounter] = useState(0);
+  // const [values, setValues] = useState([]);
   // const notes = useNotes(BACKEND_URL);
 
   // const handleClick = () => {
@@ -26,16 +28,12 @@ const App = () => {
   // };
 
   return (
-    
     <div className="container">
-        <div id="top-left"></div>
-        <div id="top-right"></div>
-        <div id="bottom-left"></div>
-        <div id="bottom-right"></div>
-        <Menu/>
-
+        <SlidePage>
+            
+        </SlidePage>
     </div>
-  );
-};
+  )
+}
 
 export default App;
