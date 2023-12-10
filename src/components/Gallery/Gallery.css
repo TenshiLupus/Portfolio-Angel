@@ -1,18 +1,18 @@
 .gallery {
-    display: flex;
-    height: 70vh;
-    left: 15vw;
-    overflow: hidden;
+  display: flex;
+  height: calc(70% - 4px);
+  left: 15vw;
+  overflow: hidden;
 }
 
-.gallery-items-container{
-    margin: auto 15%;
-    overflow: auto;
-    height: 70%;
-    width: 70%;
-    display: grid;
-    gap: 4px;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    grid-auto-rows: minmax(50%, 1fr);
-    padding-right: 1vw;
+.gallery-items-container {
+  margin: auto 15vw;
+  overflow: auto;
+  height: 70%;
+  width: 70%;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-auto-rows: minmax(50%, 1fr);
+  padding-right: 1vw;
 }
