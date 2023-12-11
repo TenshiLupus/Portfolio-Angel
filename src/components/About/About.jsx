@@ -1,8 +1,8 @@
-import "./GalleryItemDescription.css"
+import "./About.css"
 
 import React from "react";
 
-const GalleryItemDescription = () => {
+const About = () => {
     return (
         <section className="description">
                     <h2 className="description-title"><p>Description Title</p></h2>

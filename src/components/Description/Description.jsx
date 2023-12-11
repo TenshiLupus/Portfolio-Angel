@@ -1,0 +1,22 @@
+import "./Description.css"
+
+import React from "react";
+
+const Description = () => {
+    return (
+        <section className="description">
+                    <h2 className="description-title"><p>Description Title</p></h2>
+            <section className="description-container">
+                <section className="description-left">
+                    <img src="./images/foto.png" className="image-container"></img>
+                </section>
+                <article className="description-right">
+                    <p className="description-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae veniam animi maiores consequuntur, labore aperiam expedita iste? Nesciunt iusto veritatis impedit amet cum! Cupiditate minima asperiores natus, quae sequi autem, consequuntur vitae harum modi et quo, recusandae magnam. Eius perspiciatis quisquam aut in iure vel, expedita consectetur nostrum facere autem, qui nesciunt ab, inventore sint eveniet amet dignissimos libero. Ipsam inventore eligendi ratione expedita? Assumenda, temporibus accusamus! Fugit distinctio inventore impedit unde ipsam placeat reprehenderit sequi! Quo porro qui rem, aliquid veritatis minima est amet quos dolore fugiat. Earum rem cum excepturi tenetur, corporis sapiente temporibus porro, illo possimus ipsum sequi commodi dolore neque molestias optio, quidem maiores qui debitis nemo eveniet eligendi. Veniam debitis dolorem rerum ut hic voluptates iste consequuntur nam, itaque culpa dolor. Natus sapiente aliquid blanditiis velit, assumenda quis perspiciatis laborum doloremque et, molestiae porro quod ab voluptas dignissimos unde ipsam eius omnis deleniti in dolorem recusandae enim voluptatibus. Eligendi nesciunt voluptatum ducimus a id, ut, itaque ab cumque voluptas sint nostrum, dolore maiores impedit culpa amet ullam laudantium quod aperiam facere laborum aliquid! Repellat ut quibusdam dignissimos rerum optio quae officia quaerat! Doloremque nulla quaerat totam quis facere, nihil iusto ab aperiam eius itaque modi architecto autem ratione fugit distinctio, rem repellat sapiente nostrum deserunt. Reprehenderit blanditiis, numquam adipisci nisi deserunt, labore suscipit maiores iste ex aspernatur laborum animi laboriosam dolore a qui, expedita rem assumenda autem corporis delectus debitis ullam voluptatibus temporibus cumque? Laboriosam quisquam aut cupiditate sit tenetur ipsum officia adipisci maxime, sed suscipit voluptates, in delectus aspernatur. Nobis hic facilis, unde explicabo tempora officia maxime ratione numquam aliquid, in, iure ut corporis voluptatibus quis debitis ullam itaque est voluptas vitae quos. Ab rem quidem fugiat amet! Quae ipsam excepturi qui, fugiat eaque dignissimos impedit praesentium tenetur aperiam nobis eveniet harum accusantium aut voluptas doloribus vitae expedita earum, maiores optio voluptatem unde? Fuga suscipit eum est, cupiditate odio reiciendis assumenda animi neque excepturi, nemo aut repellat vero nobis minus! Eum nisi expedita et itaque tenetur ut eveniet architecto aliquid ratione mollitia recusandae, suscipit, pariatur culpa alias voluptatem laborum aspernatur laboriosam soluta aliquam exercitationem quod. Eligendi, a sed explicabo, voluptatibus deleniti officia, maiores sit sequi soluta quaerat reiciendis! Itaque omnis quod cumque impedit, sequi laudantium minima totam beatae, quis soluta cum dolorem dolore mollitia dolor facere laboriosam explicabo velit facilis eius nulla repellat? Provident quas voluptatibus ad porro vel in, magnam ullam voluptate voluptatum hic quia distinctio quisquam, nam reiciendis tempora rem aperiam? Dolorem libero quia iure? Voluptate ab adipisci sequi? Rerum dolorem molestiae soluta dolor magni libero, dicta eius autem aliquid doloremque, praesentium dolorum distinctio. Eligendi quisquam possimus tenetur harum non a similique. Ut esse laborum at. Itaque suscipit omnis debitis eius. Facilis deleniti error impedit eveniet alias blanditiis beatae voluptates! Eum veritatis natus rerum beatae voluptas earum suscipit mollitia corporis facere distinctio repellendus, amet itaque, alias vitae aliquid excepturi? Cum pariatur, asperiores impedit sint in nihil cupiditate! Quasi ipsum molestias impedit cumque dolorum officiis et atque a, dolores iure esse, reprehenderit iste.</p>
+                </article>
+            </section>
+        </section>
+    )
+}
+
+export default Description
