@@ -7,7 +7,7 @@
   box-sizing: border-box;
   border-top: #787276 2px solid;
   display: flex;
-  height: 15%;
+  height: calc(15% - 2px);
   padding: 0 15vw;
   width: 100vw;
   bottom: 0;
@@ -21,8 +21,12 @@
   color: #787276;
 }
 
+.footer-links {
+  height: 100%;
+}
+
+
 .footer-body section {
-  justify-content: flex-end;
   color: #787276;
   display: flex;
   gap: 2.5vw;

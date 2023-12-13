@@ -7,7 +7,7 @@ const Footer = () => {
       <section>
         <p>©2023, Angel Cardenas Martinez</p>
       </section>
-      <section className="links">
+      <section className="footer-links">
         <p>
           <a>Github</a>
         </p>
